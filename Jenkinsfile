@@ -6,7 +6,6 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/lakshman-cpu/jenkins-demo'
-                branch: main
                 // Run the build on a Unix agent. You must have Maven installed.
                 echo "hi"
 
